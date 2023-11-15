@@ -1,4 +1,4 @@
-# pythondatabasepersontimetracker
+# Room Time Tracker Using Databases
 This is a room tracker designed to track the time that a person is within a certain room.
 It links back to a database with (currently) fake people inside.
 
