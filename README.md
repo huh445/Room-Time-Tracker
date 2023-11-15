@@ -4,3 +4,7 @@ It links back to a database with (currently) fake people inside.
 
 Database connection is included.
 For easiest connection, please run MAMP with the included database.
+
+Interface integrated by GamethanVS.
+Timer duplication by GamethanVS.
+Interface designed by N/A (wished to remain private).
