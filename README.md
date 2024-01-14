@@ -10,3 +10,5 @@ Interface integrated by GamethanVS.
 Timer duplication by GamethanVS.
 
 Interface designed by N/A (wished to remain private).
+
+Make sure to have MAMP running with the attached database.
