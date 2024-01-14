@@ -94,7 +94,7 @@ def timer_room4():
         checkTimer4 = 1 # so it can stop the timer when run again
 
 # Time Converter
-def time_maker(seconds):  
+def time_maker(seconds): 
     global timeactual
     minutes = seconds // 60 # Minutes are seconds divided by 60
     seconds = seconds % 60 # Seconds are seconds of a modulus of seconds
@@ -131,6 +131,7 @@ def sqlName():
     query = "SELECT `name_student` FROM tbl_students WHERE id_student = " + value1
     cursor.execute(query)
     studentName = cursor.fetchone()
+    return studentName
 
 def roomOne():  
     # these globals are for other modules to be able to use the variables
@@ -142,12 +143,12 @@ def roomOne():
     room = 1 # needed so checkroom code knows what to run
     # Resets the room and stops the timer
     if checkRoomOne == 1:
-        value1 = None
         room1Occupied.configure(text="Not Occupied")
         room1User.configure(text="No User")
         checkRoomOne = 0
         okButtonCheck1 = 0
         timer_room1()
+        value1 = None
         room1Student = None
     # Launches the text entry.
     else:
@@ -365,12 +366,7 @@ def roomFourOk():
         timer_room4()
 
 
-#Following code is for the background image
-image_path = Path('/resources/background.png').relative_to('/')
-background_image = PhotoImage(file=image_path)
 
-background_label = tk.Label(root, image=background_image)
-background_label.place(relwidth=1, relheight=1)
 
 # to be able to see the errors
 errors = tk.Label(root)
