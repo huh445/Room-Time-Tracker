@@ -13,4 +13,4 @@ Interface designed by N/A (wished to remain private).
 
 Make sure to have MAMP running with the attached database.
 
-The system will just return an error when the database is not connected properly through port 3306.
+Please alter the login information within the python file if you are using an alternative software or a dedicated server for the database.
