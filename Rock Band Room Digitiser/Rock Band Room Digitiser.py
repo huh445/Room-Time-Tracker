@@ -366,7 +366,12 @@ def roomFourOk():
         timer_room4()
 
 
+#Following code is for the background image
+image_path = Path('/resources/background.png').relative_to('/')
+background_image = PhotoImage(file=image_path)
 
+background_label = tk.Label(root, image=background_image)
+background_label.place(relwidth=1, relheight=1)
 
 # to be able to see the errors
 errors = tk.Label(root)
