@@ -12,3 +12,5 @@ Timer duplication by GamethanVS.
 Interface designed by N/A (wished to remain private).
 
 Make sure to have MAMP running with the attached database.
+
+The system will just return an error when the database is not connected properly through port 3306.
