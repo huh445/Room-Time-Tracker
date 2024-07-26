@@ -1,13 +1,13 @@
 # Room Time Tracker Using Databases
 This is a room tracker designed to track the time that a person is within a certain room.
-It links back to a database with (currently) fake people inside.
 
-# Important Information
-Database connection is included.
+Multiple people can be in the same room!
 
-For easiest connection, please run MAMP with the included database.
+# Important Updates
 
-Please alter the login information within the python file if you are using an alternative software or a dedicated server for the database.
+Recently Modernised
+
+Database integration is being worked on
 
 # Credits
 Interface integrated by GamethanVS.
