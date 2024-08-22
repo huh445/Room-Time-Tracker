@@ -4,10 +4,9 @@ This is a room tracker designed to track the time that a person is within a cert
 Multiple people can be in the same room!
 
 # Important Updates
-
 Recently Modernised
 
-Database integration is being worked on
+Saves times to CSV, so there is no need for a database.
 
 # Credits
 Interface integrated by GamethanVS.
