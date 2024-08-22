@@ -11,3 +11,8 @@ class ReadCSV:
             rows = list(reader)
         
         return rows
+    
+    def save_csv(self, recorded_time):
+        with  open("times.csv", mode="a", newline="\n") as f:
+            writer = self.csv.DictWriter(f, fieldnames=["name", "room", "times"])
+            writer.writerow(recorded_time)

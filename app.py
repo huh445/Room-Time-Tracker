@@ -12,9 +12,9 @@ class App:
         self.stop_timer_button = tk.Button(self.root, text="Stop the timer", command=self.stop_timer)
         self.select_room_entry = tk.Entry(self.root)
         self.id_entry = tk.Entry(self.root)
-
+        self.read_csv = ReadCSV()
         self.data = {1: None, 2: None, 3: None, 4: None}
-        self.id_list = ReadCSV().read_csv()
+        self.id_list = self.read_csv.read_csv()
         self.time = time
 
         self.run()
@@ -89,7 +89,7 @@ class App:
                 username = ids[1]
         print(f"Time spent by {username} in room {self.room} was {final_time}")
         self.stop_timer_button.pack_forget()
-        
+        self.read_csv.save_csv({"name": username, "room": self.room, "times": final_time})
         
     def run(self):
         self.select_room_entry.pack()
