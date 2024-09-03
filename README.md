@@ -37,7 +37,6 @@ Recently, the system has been updated to use CSV files for storing time data. Th
    cd room-time-tracker
    ```
 3. **Run the python file**
-    Run the command
     ```bash
     python3 main.py
     ```
