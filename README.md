@@ -25,6 +25,23 @@ Recently, the system has been updated to use CSV files for storing time data. Th
 
 ## Installation
 
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/room-time-tracker.git
+   ```
+
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd room-time-tracker
+   ```
+3. **Run the python file**
+    Run the command
+    ```bash
+    python3 main.py
+    ```
+
 ### NOTE
 
 Clone the repo and run main.py. The releases are very outdated.
