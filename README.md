@@ -28,7 +28,7 @@ Recently, the system has been updated to use CSV files for storing time data. Th
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/room-time-tracker.git
+   git clone https://github.com/huh445/room-time-tracker.git
    ```
 
 2. **Navigate to the Project Directory**
